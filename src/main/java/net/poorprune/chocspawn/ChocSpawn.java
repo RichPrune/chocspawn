@@ -1,4 +1,4 @@
-package net.poorprune.diffboss;
+package net.poorprune.chocspawn;
 
 import com.mojang.logging.LogUtils;
 import net.minecraftforge.api.distmarker.Dist;
@@ -14,12 +14,12 @@ import net.minecraftforge.fml.javafmlmod.FMLJavaModLoadingContext;
 import org.slf4j.Logger;
 
 // The value here should match an entry in the META-INF/mods.toml file
-@Mod(DiffBoss.MOD_ID)
-public class DiffBoss
+@Mod(ChocSpawn.MOD_ID)
+public class ChocSpawn
 {
-    public static final String MOD_ID = "diffboss";
+    public static final String MOD_ID = "chocspawn";
     private static final Logger LOGGER = LogUtils.getLogger();
-    public DiffBoss() {
+    public ChocSpawn() {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
 
         modEventBus.addListener(this::commonSetup);

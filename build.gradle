@@ -6,10 +6,10 @@ plugins {
 }
 
 version = '0.0.1-1.19.2'
-group ='net.poorprune.diffboss'
+group ='net.poorprune.chocspawn'
 
 base {
-    archivesName ='diffboss'
+    archivesName ='chocspawn'
 }
 
 // Mojang ships Java 17 to end users in 1.18+, so your mod should target Java 17.
@@ -75,10 +75,10 @@ minecraft {
             property 'forge.logging.console.level', 'debug'
 
             // Comma-separated list of namespaces to load gametests from. Empty = all namespaces.
-            property 'forge.enabledGameTestNamespaces', 'diffboss'
+            property 'forge.enabledGameTestNamespaces', 'chocspawn'
 
             mods {
-                "${diffboss}" {
+                "${chocspawn}" {
                     source sourceSets.main
                 }
             }
